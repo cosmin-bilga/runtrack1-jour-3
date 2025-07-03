@@ -48,7 +48,6 @@ a
 {
     display: flex;
     flex-direction: row;
-    text-indent: 2rem;
     width: 100vw;
 }
 
@@ -61,6 +60,11 @@ a
     margin: 20px;
     font-size: 2rem;
 
+}
+
+#accueil-left > h2
+{
+    color: white;
 }
 
 footer
@@ -85,6 +89,8 @@ footer
 #tests-button
 {
     background-color: red;
+    display: table;
+    margin: 0 auto;
 }
 
 #tests-button:hover
